@@ -1,0 +1,23 @@
+.Records {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0.3em;
+}
+
+.Records h2 {
+  margin: 0;
+  padding: 0 1em;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.Records .roll {
+  margin-right: auto;
+  text-align: left;
+}
+
+.Records .time {
+  text-align: right;
+}
+/*# sourceMappingURL=Records.css.map */

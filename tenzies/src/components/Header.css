@@ -1,0 +1,46 @@
+.Header {
+  color: #2b283a;
+  display: -ms-grid;
+  display: grid;
+}
+
+.Header .Header--title {
+  margin: 0;
+  margin-top: 0.6em;
+  font-size: 2rem;
+}
+
+.Header .Header--winner {
+  margin-bottom: 1.5em;
+  font-size: 2rem;
+}
+
+.Header .Header--instructions {
+  margin: 0 auto;
+  max-width: 260px;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -0.03rem;
+  line-height: 1.3rem;
+}
+
+.Header .Header--record {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.8em 2em;
+  font-size: 2rem;
+}
+
+.Header .Header--record h1 {
+  margin: 0;
+}
+
+.Header .Header--record .rolls {
+  margin-right: auto;
+}
+/*# sourceMappingURL=Header.css.map */

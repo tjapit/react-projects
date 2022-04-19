@@ -1,0 +1,38 @@
+.Header {
+    color: #2b283a;
+    display: grid;
+
+    .Header--title {
+        margin: 0;
+        margin-top: 0.6em;
+        font-size: 2rem;
+    }
+
+    .Header--winner {
+        margin-bottom: 1.5em;
+        font-size: 2rem;
+    }
+
+    .Header--instructions {
+        margin: 0 auto;
+        max-width: 260px;
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: -0.03rem;
+        line-height: 1.3rem;
+    }
+
+    .Header--record {
+        display: flex;
+        justify-content: center;
+        margin: 0.8em 2em;
+        font-size: 2rem;
+        h1 {
+            margin: 0;
+        }
+        .rolls {
+            margin-right: auto;
+        }
+    }
+}

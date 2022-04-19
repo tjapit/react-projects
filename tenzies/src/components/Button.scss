@@ -1,0 +1,23 @@
+.Button {
+    margin: 0 auto;
+    // margin-bottom: 1em;
+    margin-top: 1em;
+    width: 6em;
+    height: 2.2em;
+    background-color: #007af3;
+    color: white;
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    &:active {
+        box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+    }
+    &:hover {
+        background-color: #0064c9;
+    }
+}

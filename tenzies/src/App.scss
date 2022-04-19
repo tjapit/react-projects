@@ -1,0 +1,59 @@
+.App {
+    // centering with flex
+    display: flex;
+    align-items: center;
+    // centering with flex /
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 400px;
+    height: 480px;
+    background-color: #0b2434;
+    border-radius: 10px;
+    // position: relative;
+
+    .start {
+        justify-content: center;
+    }
+
+    .Game {
+        // position: absolute;
+        // margin: 30px 20px;
+        display: grid;
+        text-align: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        width: 360px;
+        height: 420px;
+        border-radius: 10px;
+
+        .Game--start {
+            cursor: pointer;
+            // // centering things
+            // position: absolute;
+            // top: 50%;
+            // left: 50%;
+            // transform: translate(-50%, -50%);
+            // // centering things /
+            max-width: fit-content;
+            padding: 0.5em 1.5em;
+            font-family: inherit;
+            font-size: 2rem;
+            font-weight: bold;
+            white-space: nowrap;
+            letter-spacing: -0.05rem;
+            background-color: #007af3;
+            color: white;
+            border: none;
+            border-radius: 10px;
+
+            &:active {
+                box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+            }
+
+            &:hover {
+                background-color: #0064c9;
+            }
+        }
+    }
+}
